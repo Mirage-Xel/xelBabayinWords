@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: xelBaybayinWords
+  title: Baybayin Words (Open Beta)
+  author: PANOPTES
+  description: 'We don''t use this alphabet in our country. Especially since I''m
+    not Filipino.
+
+
+    Baybayin Words regular module by PANOPTES.
+
+
+    Manual/Idea by CrunchyBot.
+
+
+    Module ID: xelBaybayinWords
+
+
+    This is an open beta, so therer may be bugs, and my policy of not giving betas
+    TP support was:
+
+
+    A) Kind of arbitrary.
+
+
+    B) Kind of stupid, since I pretty much use the same TP code over and over again
+    anyway.
+
+
+    So, yeah, this module has TP support.'
+  version: Beta 0.2
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: d27ed0960afee4240bcdc48c3f3831dd, type: 3}
