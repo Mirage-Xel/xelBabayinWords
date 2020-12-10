@@ -9,7 +9,7 @@ public class BaybayinWords : MonoBehaviour {
     public TextMesh display;
     public KMSelectable[] buttons;
     string[] wordsEnglish = new string[] { "Dove", "House", "Food", "Sleep", "Bridge", "Wood", "Sugar", "Rich", "Shoe", "Gold", "Brown", "Treasure", "Weak", "Guava", "Happy", "Thanks", "Captain", "Clap", "Eyes", "Dive", "Plant", "Medicine", "Island", "Hide", "Swim", "Fly", "Lightning", "Dinner", "Breakfast", "Lunch", "Clothing", "Copper", "Silver", "Dead", "Deaf", "Blind", "Lame", "Mute", "Stain", "Plate", "Knife", "Necklace", "Ring", "Stop", "Walk" };
-    string[] wordsBaybayin = new string[] { "ᜃᜎᜉᜆᜒ", "ᜊᜑᜌ᜔", "ᜉᜄ᜔ᜃᜁᜈ᜔", "ᜆᜓᜎᜓᜄ᜔", "ᜆᜓᜎᜓᜄ᜔", "ᜆᜓᜎᜓᜌ᜔", "ᜃᜑᜓᜌ᜔", "ᜀᜐᜓᜃᜎ᜔", "ᜋᜌᜋᜈ᜔", "ᜐᜉᜆᜓᜐ᜔", "ᜄᜒᜈ᜔ᜆᜓ", "ᜃᜌᜓᜈ᜔ᜄᜒ", "ᜃᜌᜋᜈ᜔ᜀᜈ᜔", "ᜊᜌᜊᜐ᜔", "ᜋᜐᜌ", "ᜐᜎᜋᜆ᜔", "ᜃᜉᜒᜆᜈ᜔", "ᜉᜎᜃ᜔ᜉᜃ᜔", "ᜋᜆ", "ᜐᜒᜐᜒᜇ᜔", "ᜑᜎᜋᜈ᜔", "ᜄᜋᜓᜆ᜔", "ᜁᜐ᜔ᜎ", "ᜆᜄᜓ", "ᜎᜅᜓᜌ᜔", "ᜎᜒᜉᜇ᜔", "ᜃᜒᜇ᜔ᜎᜆ᜔", "ᜑᜉᜓᜈᜈ᜔", "ᜀᜄᜑᜈ᜔", "ᜆᜅ᜔ᜑᜎᜒᜀᜈ᜔", "ᜇᜋᜒᜆ᜔", "ᜆᜈ᜔ᜐᜓ", "ᜉᜒᜎᜃ᜔", "ᜉᜆᜌ᜔", "ᜊᜒᜅᜒ", "ᜊᜓᜎᜄ᜔", "ᜉᜒᜎᜃ᜔", "ᜉᜒᜉᜒ", "ᜋᜈ᜔ᜆ᜔ᜐ", "ᜉ᜔ᜎᜆᜓ", "ᜃᜓᜎ᜔ᜆ᜔ᜐᜒᜎ᜔ᜌᜓ", "ᜃᜓᜏᜒᜈ᜔ᜆᜐ᜔", "ᜐᜒᜅ᜔ᜐᜒᜅ᜔", "ᜑᜒᜈ᜔ᜆᜓ", "ᜎᜃᜇ᜔" };
+    string[] wordsBaybayin = new string[] { "ᜃᜎᜉᜆᜒ", "ᜊᜑᜌ᜔", "ᜉᜄ᜔ᜃᜁᜈ᜔", "ᜆᜓᜎᜓᜄ᜔", "ᜆᜓᜎᜓᜄ᜔", "ᜆᜓᜎᜓᜌ᜔", "ᜃᜑᜓᜌ᜔", "ᜀᜐᜓᜃᜎ᜔", "ᜐᜉᜆᜓᜐ᜔", "ᜋᜌᜋᜈ᜔", "ᜄᜒᜈ᜔ᜆᜓ", "ᜃᜌᜓᜈ᜔ᜄᜒ", "ᜃᜌᜋᜈ᜔ᜀᜈ᜔", "ᜊᜌᜊᜐ᜔", "ᜋᜐᜌ", "ᜐᜎᜋᜆ᜔", "ᜃᜉᜒᜆᜈ᜔", "ᜉᜎᜃ᜔ᜉᜃ᜔", "ᜋᜆ", "ᜐᜒᜐᜒᜇ᜔", "ᜑᜎᜋᜈ᜔", "ᜄᜋᜓᜆ᜔", "ᜁᜐ᜔ᜎ", "ᜆᜄᜓ", "ᜎᜅᜓᜌ᜔", "ᜎᜒᜉᜇ᜔", "ᜃᜒᜇ᜔ᜎᜆ᜔", "ᜑᜉᜓᜈᜈ᜔", "ᜀᜄᜑᜈ᜔", "ᜆᜅ᜔ᜑᜎᜒᜀᜈ᜔", "ᜇᜋᜒᜆ᜔", "ᜆᜈ᜔ᜐᜓ", "ᜉᜒᜎᜃ᜔", "ᜉᜆᜌ᜔", "ᜊᜒᜅᜒ", "ᜊᜓᜎᜄ᜔", "ᜉᜒᜎᜃ᜔", "ᜉᜒᜉᜒ", "ᜋᜈ᜔ᜆ᜔ᜐ", "ᜉ᜔ᜎᜆᜓ", "ᜃᜓᜎ᜔ᜆ᜔ᜐᜒᜎ᜔ᜌᜓ", "ᜃᜓᜏᜒᜈ᜔ᜆᜐ᜔", "ᜐᜒᜅ᜔ᜐᜒᜅ᜔", "ᜑᜒᜈ᜔ᜆᜓ", "ᜎᜃᜇ᜔" };
     List<string> moduleWords;
     int correctWordIndex;
     public KMBombModule module;
@@ -61,7 +61,7 @@ public class BaybayinWords : MonoBehaviour {
         };
 	}
 #pragma warning disable 414
-    private string TwitchHelpMessage = "use '!{0} 1/2/3/4/5/6' to press the Nth button in reading order.";
+    private string TwitchHelpMessage = "use '!{0} 1/2/3/4/5/6' to press that button in reading order";
 #pragma warning restore 414
     IEnumerator ProcessTwitchCommand(string command)
     {
